@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Jingyao logo option 2</title>
+  <desc id="desc">Chip style JY mark for electronics manufacturing.</desc>
+  <defs>
+    <linearGradient id="g2" x1="42" y1="32" x2="216" y2="224" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#143E86"/>
+      <stop offset="1" stop-color="#2C8CFF"/>
+    </linearGradient>
+  </defs>
+  <rect x="48" y="48" width="160" height="160" rx="24" fill="url(#g2)"/>
+  <rect x="70" y="70" width="116" height="116" rx="16" fill="none" stroke="#D8ECFF" stroke-width="6"/>
+  <g stroke="#8EC5FF" stroke-width="8" stroke-linecap="round">
+    <path d="M78 30v24M118 30v24M158 30v24M78 202v24M118 202v24M158 202v24M30 78h24M30 118h24M30 158h24M202 78h24M202 118h24M202 158h24"/>
+  </g>
+  <path d="M94 102v40c0 15-9 24-24 24" fill="none" stroke="#fff" stroke-width="13" stroke-linecap="round"/>
+  <path d="M112 94 132 128l20-34M132 128v38" fill="none" stroke="#fff" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

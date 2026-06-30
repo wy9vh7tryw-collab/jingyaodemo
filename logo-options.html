@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>精曜制造 Logo 方案预览</title>
+  <style>
+    :root {
+      --blue: #1f66c1;
+      --ink: #1c2838;
+      --muted: #7b8797;
+      --line: #e5eaf2;
+      --bg: #f5f7fb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--bg);
+      font-family: "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+    }
+
+    main {
+      width: min(1120px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 56px 0 72px;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: 28px;
+      line-height: 1.3;
+    }
+
+    .intro {
+      margin: 0 0 34px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      padding: 24px 18px 22px;
+      background: #fff;
+      border: 1px solid var(--line);
+      box-shadow: 0 14px 36px rgba(22, 61, 113, 0.08);
+      text-align: center;
+    }
+
+    .card img {
+      width: 112px;
+      height: 112px;
+      margin: 0 auto 20px;
+    }
+
+    .card h2 {
+      margin: 0 0 8px;
+      font-size: 16px;
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.7;
+    }
+
+    .brand-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      justify-content: center;
+      padding-top: 18px;
+      margin-top: 20px;
+      border-top: 1px solid var(--line);
+    }
+
+    .brand-row img {
+      width: 42px;
+      height: 42px;
+      margin: 0;
+    }
+
+    .brand-row strong {
+      display: block;
+      color: var(--blue);
+      font-size: 18px;
+      line-height: 1.1;
+      text-align: left;
+    }
+
+    .brand-row small {
+      display: block;
+      margin-top: 3px;
+      color: #a5afbf;
+      font-size: 10px;
+      font-weight: 700;
+      text-align: left;
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 980px) {
+      .grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 560px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>精曜制造 Logo 方案预览</h1>
+    <p class="intro">先生成 5 个方向供筛选。选中后可以继续微调字形、图形比例和蓝色深浅。</p>
+    <section class="grid" aria-label="Logo 方案">
+      <article class="card">
+        <img src="assets/logo-option-1.svg" alt="Logo 方案 1">
+        <h2>方案 1：六边电路</h2>
+        <p>延续当前六边形识别，增加电子制造感。</p>
+        <div class="brand-row"><img src="assets/logo-option-1.svg" alt=""><span><strong>精曜制造</strong><small>Jingyao Manufacturing</small></span></div>
+      </article>
+      <article class="card">
+        <img src="assets/logo-option-2.svg" alt="Logo 方案 2">
+        <h2>方案 2：芯片边框</h2>
+        <p>更偏电子配件行业，适合 3C 制造定位。</p>
+        <div class="brand-row"><img src="assets/logo-option-2.svg" alt=""><span><strong>精曜制造</strong><small>Jingyao Manufacturing</small></span></div>
+      </article>
+      <article class="card">
+        <img src="assets/logo-option-3.svg" alt="Logo 方案 3">
+        <h2>方案 3：精密圆环</h2>
+        <p>强调精密、规范和制造标准。</p>
+        <div class="brand-row"><img src="assets/logo-option-3.svg" alt=""><span><strong>精曜制造</strong><small>Jingyao Manufacturing</small></span></div>
+      </article>
+      <article class="card">
+        <img src="assets/logo-option-4.svg" alt="Logo 方案 4">
+        <h2>方案 4：锋面菱形</h2>
+        <p>视觉更有速度感，适合年轻 3C 品牌感。</p>
+        <div class="brand-row"><img src="assets/logo-option-4.svg" alt=""><span><strong>精曜制造</strong><small>Jingyao Manufacturing</small></span></div>
+      </article>
+      <article class="card">
+        <img src="assets/logo-option-5.svg" alt="Logo 方案 5">
+        <h2>方案 5：稳固盾牌</h2>
+        <p>表达可靠、稳定交付和服务保障。</p>
+        <div class="brand-row"><img src="assets/logo-option-5.svg" alt=""><span><strong>精曜制造</strong><small>Jingyao Manufacturing</small></span></div>
+      </article>
+    </section>
+  </main>
+</body>
+</html>

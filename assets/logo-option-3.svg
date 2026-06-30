@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Jingyao logo option 3</title>
+  <desc id="desc">Precision ring JY mark with manufacturing reference lines.</desc>
+  <defs>
+    <linearGradient id="g3" x1="54" y1="26" x2="204" y2="230" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2C8CFF"/>
+      <stop offset="1" stop-color="#0E3A7A"/>
+    </linearGradient>
+  </defs>
+  <circle cx="128" cy="128" r="104" fill="url(#g3)"/>
+  <circle cx="128" cy="128" r="82" fill="none" stroke="#EAF5FF" stroke-width="8"/>
+  <circle cx="128" cy="128" r="58" fill="rgba(255,255,255,.08)" stroke="#8EC5FF" stroke-width="2"/>
+  <g stroke="#EAF5FF" stroke-width="8" stroke-linecap="round">
+    <path d="M128 20v28M128 208v28M20 128h28M208 128h28"/>
+  </g>
+  <text x="128" y="151" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="800" fill="#fff">JY</text>
+  <path d="M172 69 190 87M66 171l18 18" stroke="#8EC5FF" stroke-width="6" stroke-linecap="round"/>
+</svg>

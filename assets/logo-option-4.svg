@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Jingyao logo option 4</title>
+  <desc id="desc">Diamond JY mark with sharp precision styling.</desc>
+  <defs>
+    <linearGradient id="g4" x1="34" y1="36" x2="218" y2="222" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1F66C1"/>
+      <stop offset=".55" stop-color="#2C8CFF"/>
+      <stop offset="1" stop-color="#103C7F"/>
+    </linearGradient>
+  </defs>
+  <path d="M128 18 236 128 128 238 20 128 128 18Z" fill="url(#g4)"/>
+  <path d="M128 43 211 128 128 213 45 128 128 43Z" fill="none" stroke="#D8ECFF" stroke-width="5" opacity=".72"/>
+  <path d="M81 91v50c0 17-10 27-27 27" fill="none" stroke="#fff" stroke-width="14" stroke-linecap="round"/>
+  <path d="M105 88 132 130l27-42M132 130v39" fill="none" stroke="#fff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M181 56v28M167 70h28" stroke="#EAF5FF" stroke-width="7" stroke-linecap="round"/>
+</svg>
